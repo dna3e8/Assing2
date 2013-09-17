@@ -23,12 +23,7 @@
 		<div runat="server" id="divUser"></div>
 	</div>
 	<div data-role="footer" data-position="fixed" data-id="nav">
-	<div data-role="navbar">
-		<ul>
-			<li><a href="#home" data-transition="pop">Home</a></li>
-			<li><a href="#userinfo" data-transition="pop" class="ui-btn-active ui-statepersist">Contact</a></li>
-		</ul>
-	</div>
+	
 </div>
 </div>
 </asp:Content>
