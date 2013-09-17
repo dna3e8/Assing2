@@ -13,7 +13,7 @@ namespace Example_Form_Receiver
         protected void Page_Load(object sender, EventArgs e)
         {
             string instructorEmail = "fchristian1@comcast.net";
-            string userNM = Request.Form["userNM"];
+            string userNM = Request.Form["userNM"]; // pull key value pair from form
             string emailADDR = Request.Form["email"];
             string assignmentNum = Request.Form["assignment"];
             
